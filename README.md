@@ -39,6 +39,10 @@ cp terraform.tfvars.example terraform.tfvars
 
 Edit to proper values then go to next step
 
+Example:
+
+![developer-keys](_assets/example-of-terraform.tfvars.png)
+
 ### Run the terraform
 
 ```
