@@ -1,6 +1,6 @@
 hosts
 default.yml
-# ansible/developer-keys/*
+ansible/developer-keys/*
 
 # Local .terraform directories
 **/.terraform/*
