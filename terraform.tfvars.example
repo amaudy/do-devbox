@@ -1,0 +1,7 @@
+do_token       = "xxx"
+do_private_key = "terraform-devbox"
+image          = "ubuntu-22-04-x64"
+name           = "demo-devbox"
+region         = "sgp1"
+size           = "s-2vcpu-4gb"
+tags           = ["devbox", "demo"]
