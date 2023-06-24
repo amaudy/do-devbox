@@ -10,3 +10,4 @@
     - users
     - copy-developer-keys
     - install-docker
+    - amaudy.ansible_k3s_single

@@ -10,7 +10,7 @@ resource "digitalocean_firewall" "devbox" {
   inbound_rule {
     protocol         = "tcp"
     port_range       = "1-65535"
-    source_addresses = ["${chomp(data.http.myip.body)}/32"]
+    source_addresses = ["${chomp(data.http.myip.response_body)}/32"]
   }
 
   outbound_rule {
